@@ -99,3 +99,11 @@ button[disabled]:hover {
     margin-top: 1em;
     text-align: center;
 }
+
+@media (min-width: 200px) and (max-width: 380px) {
+
+    .container {
+        width: 15em;
+    }
+
+}
