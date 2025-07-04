@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorjeta</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <section class="container">
+        <section class="form-converter">
+            <h1>Calculadora de Gorjeta</h1>
+
+            <div>
+                <label for="valConta">Valor da Conta</label>
+                <input type="text" value="R$ 0,00" name="valConta" id="valConta">
+            </div>
+
+            <div>
+                <label for="quality">Qualidade do serviço</label>
+                <select name="quality" id="optionsQuality">
+                    <option value="0.1">Excelente - 10%</option>
+                    <option value="0.08">Ótimo - 8%</option>
+                    <option value="0.05">Bom - 5%</option>
+                    <option value="0">Ruim - 0%</option>
+                </select>
+            </div>
+
+            <button id="calc" disabled>Calcular Gorjeta</button>
+
+            <div>
+                <label for="valTip">Valor da Gorjeta</label>
+                <input type="text" name="valTip" id="valTip" disabled>
+            </div>
+            <div>
+                <label for="valTot">Valor Total</label>
+                <input type="text" name="valTot" id="valTot" disabled>
+            </div>
+
+        </section>
+    </section>
+    <section class="branding-area">
+        <a target="_blank" class="branding-text" href="https://www.linkedin.com/in/gustavodsrosa/">Meu LinkedIn</a>
+        <span class="branding-text">|</span>
+        <span class="branding-text">Feito por Gustavo Rosa</span>
+    </section>
+</body>
+
+</html>
