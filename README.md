@@ -5,7 +5,7 @@ Este projeto tem como fundamento desenvolver uma calculadora de gorjeta, seguind
 
 Para utilizar a funcionalidade, siga os passos abaixo:
 
-- Insira o valor da gorjeta
+- Insira o valor total do serviço.
 - Selecione a porcentagem relacionada com a qualidade do serviço ofertado.
 - Ao clicar no botão Calcular gorjeta, os valores serão listados logo abaixo!
 
