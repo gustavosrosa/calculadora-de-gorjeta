@@ -11,7 +11,7 @@ inputValueElement.addEventListener("keyup", (event) => {
     event.target.value = validatorMoney.value;
 
     valTipElement.value = "";
-    valTotElement.value = ""
+    valTotElement.value = "";
 
     calcBtn.disabled = !validatorMoney.isValidKeyUp;
 });
