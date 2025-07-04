@@ -33,6 +33,7 @@ body {
     background-color: var(--color-background-container);
     width: 22.5em;
     height: 23em;
+    padding: 1.5em 0;
     border-radius: var(--border-radius);
     box-shadow: 0px 0px 10px var(--color-box-shadow-container);
     display: flex;
