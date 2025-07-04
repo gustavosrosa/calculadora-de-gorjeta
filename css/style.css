@@ -81,6 +81,7 @@ button:hover {
 }
 
 input[disabled] {
+    text-align: end;
     background-color: var(--color-background-landing-page);
 }
 
