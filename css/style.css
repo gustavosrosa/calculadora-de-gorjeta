@@ -109,7 +109,7 @@ button[disabled]:hover {
 @media (min-width: 200px) and (max-width: 380px) {
 
     .container {
-        width: 15em;
+        width: 17.5em;
     }
 
 }
