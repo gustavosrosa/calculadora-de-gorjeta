@@ -16,12 +16,12 @@
 
             <div>
                 <label for="valConta">Valor da Conta</label>
-                <input type="number" name="valConta" id="valConta">
+                <input type="text" value="R$ 0,00" name="valConta" id="valConta">
             </div>
 
             <div>
                 <label for="quality">Qualidade do serviço</label>
-                <select name="quality" id="option">
+                <select name="quality" id="optionsQuality">
                     <option value="10">Excelente - 10%</option>
                     <option value="8">Ótimo - 8%</option>
                     <option value="5">Bom - 5%</option>
@@ -29,7 +29,7 @@
                 </select>
             </div>
 
-            <button disabled>Calcular Gorjeta</button>
+            <button id="calc" disabled>Calcular Gorjeta</button>
 
             <div>
                 <label for="valGorj">Valor da Gorjeta</label>
