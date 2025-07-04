@@ -110,6 +110,7 @@ button[disabled]:hover {
 
     .container {
         width: 17.5em;
+        height: 100vh;
     }
 
 }
